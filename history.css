@@ -1,0 +1,232 @@
+.BISUlogo{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+header h1{
+    margin-bottom: 0px;
+    padding-top: 10px;
+    color: rgb(0, 0, 121);
+    text-shadow: 1px 1px gray;
+    margin-top: 0px;
+}
+header h6{
+    margin-top: 0px;
+}
+header{
+    background-color: beige;
+    height: 90px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 5px 1px rgb(110, 110, 110);
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+body{
+    background-color:antiquewhite;
+    margin: 0%;
+}
+.bur{
+    width: 30px;
+    height: 5px;
+    background-color: rgb(88, 87, 87);
+    margin: 6px 0;
+}
+.burger{
+    position: fixed;
+    right:1.5%;
+    top: 4%;
+    z-index: 3;
+}
+.history{
+    width: 1350px;
+    height: 2000px;
+    background-image: url("history.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: blur(8px);
+}
+.his{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin-left: 50px;
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    top: 30%;
+}
+.about{
+        background-color:rgb(1, 1, 54);
+        position: absolute;
+        width: 1350px;
+        height: 1000px;
+        top: 118%;
+}
+.born{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 70px;
+    top: 1%;
+}
+.sign{
+    color: rgb(252, 249, 249);
+    font-size: xx-large;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 18px;
+    top: 13%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 46%;
+}
+.ra{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin-left: 45px;
+    position: absolute;
+    font-size: 20px;
+    top: 20%;
+    font-style: italic;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 46%;
+}
+.act{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin-left: 40px;
+    position: absolute;
+    font-size: 20px;
+    top: 33%;
+    left: 33%;
+}
+.gate{
+    position:absolute;
+    width: 43%;
+    height: 55%;
+    top: 141%;
+    left: 53%;
+}
+.cong{
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    margin-left: 45px;
+    position: absolute;
+    font-size: 20px;
+    top: 38%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 46%
+}
+.timeline{
+background-color:beige;
+position: absolute;
+width: 1350px;
+height: 2200px;
+top: 200%;
+}
+.early{
+    color:rgb(24, 23, 23);
+    font-size: xx-large;
+    margin-left: 50px;
+    position:absolute;
+    font-size: 30px;
+    top: 200%;
+    left: 29%; 
+}
+.cvscaft{
+    position:absolute;
+    width: 90%;
+    height: 250%;
+    top: 150%;
+    left: -70%;
+}
+.road{
+    color: rgb(2, 2, 2);
+    font-size: xx-large;
+    margin-left: 65%;
+    position: absolute;
+    font-size: 20px;
+    top: 160%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 110%
+}
+.campus{
+    color: rgb(2, 2, 2);
+    font-size: xx-large;
+    left: -75%;
+    position: absolute;
+    font-size: 20px;
+    top: 500%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 110%
+}
+.alumni{
+    position:absolute;
+    width: 170%;
+    height: 380%;
+    top: 440%;
+    left: 42%;
+}
+.humble{
+    color: rgb(2, 2, 2);
+    font-size: xx-large;
+    margin-left: 65%;
+    position: absolute;
+    font-size: 20px;
+    top: 800%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 110%
+}
+.school{
+    position:absolute;
+    width: 120%;
+    height: 250%;
+    top: 800%;
+    left: -80%;
+}
+.lead{
+    color: rgb(2, 2, 2);
+    font-size: xx-large;
+    left: -75%;
+    position: absolute;
+    font-size: 20px;
+    top: 1150%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 110%
+}
+.new{
+    position:absolute;
+    width: 120%;
+    height: 250%;
+    top: 1150%;
+    left: 64%;
+}
+footer{
+    background-color:rgb(1, 1, 54);
+    position: absolute;
+    width: 1350px;
+    height: 200px;
+    top: 540%;
+  }
+  .logfooter{
+    position:relative;
+    width: 100px;
+    height: 100px;
+    top: 25%;
+    left: 45%;
+  }
+  footer h1{
+  color: rgb(224, 224, 228);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  position:absolute;
+  top: 65%;
+  left:34%;
+}

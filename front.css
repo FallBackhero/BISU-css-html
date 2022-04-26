@@ -1,0 +1,111 @@
+.BISUlogo{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+header h1{
+margin-bottom: 0px;
+padding-top: 10px;
+color: rgb(0, 0, 121);
+text-shadow: 1px 1px gray;
+margin-top: 0px;
+
+}
+header h6{
+margin-top: 0px;
+}
+header{
+    background-color: beige;
+    height: 90px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 5px 1px rgb(110, 110, 110);
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+body{
+    background-color:rgb(160, 189, 252);
+    margin: 0%;
+    height: 10%;
+}
+.bur{
+    width: 30px;
+    height: 5px;
+    background-color: rgb(88, 87, 87);
+    margin: 6px 0;
+}
+.burger{
+    position: fixed;
+    right:1.5%;
+    top: 4%;
+    z-index: 3;
+}
+.bohol {
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+}
+.tagbi{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 70%;
+    top: 78%
+}
+.balilihan{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 62%;
+    top: 65%
+}
+.calape{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 70%;
+    top: 49%
+}
+.clarin{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 58%;
+    top: 39%;
+}
+.bilar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 54.7%;
+    top: 73%;
+}
+.candijay{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 30%;
+    top: 57%;
+}
+footer{
+    background-color:rgb(1, 1, 54);
+    position: absolute;
+    width: 1350px;
+    height: 200px;
+    top: 150%;
+  }
+  .logfooter{
+    position:relative;
+    width: 100px;
+    height: 100px;
+    top: 25%;
+    left: 45%;
+  }
+  footer h1{
+  color: rgb(224, 224, 228);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  position:absolute;
+  top: 65%;
+  left:34%;
+}

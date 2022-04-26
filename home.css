@@ -1,0 +1,464 @@
+.BISUlogo{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+header h1{
+    margin-bottom: 0px;
+    padding-top: 10px;
+    color: rgb(0, 0, 121);
+    text-shadow: 1px 1px gray;
+    margin-top: 0px;
+}
+header h6{
+    margin-top: 0px;
+}
+header{
+    background-color: beige;
+    height: 90px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 5px 1px rgb(110, 110, 110);
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+body{
+    background-color:antiquewhite;
+    margin: 0%;
+}
+.bur{
+    width: 30px;
+    height: 5px;
+    background-color: rgb(88, 87, 87);
+    margin: 6px 0;
+}
+.burger{
+    position: fixed;
+    right:1.5%;
+    top: 4%;
+    z-index: 3;
+}
+.motto{
+    position: absolute;
+    text-align: center;
+    margin: 30% auto;
+    left: 16%;
+    z-index: 1;
+    font-family: myFirstFont;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("GTBold.ttf");
+  }
+.gate{
+    position:absolute;
+    width: 1350px;
+    height: 2000px;
+    background-image: url("gate.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: blur(4.5px);
+}
+.abisu{
+    background-color:rgb(1, 1, 54);
+    position: absolute;
+    width: 1350px;
+    height: 2000px;
+    top: 118%;
+    
+}
+.bglance{
+    color: aliceblue;
+    padding-top: 5%;
+    font-size: xx-large;
+    margin-left: 80px;
+}
+.brief{
+    position:absolute;
+    top: 3.5%;
+    right: 6.5%;
+}
+hr {
+    display:block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0px;
+    margin-right: 90px;
+    border-style: inset;
+    border-width: 1px;
+    color: aliceblue;
+  }
+.history{
+    position:absolute;
+    top: 9.1%;
+    right: 18%;
+}
+.arrow{
+    /* background-color: antiquewhite; */
+    background-image: url("arrow3.png");
+    background-size: cover;
+    background-position-y:center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-size: 150px;
+    background-position-x: 46.5%;
+    position: relative;
+    left:55%;
+}
+.year{
+    position:absolute;
+    left: 10%;
+}
+.found{
+    position:absolute;
+    left: 10%;
+    top: 19%;
+}
+.RA{
+    position:absolute;
+    left: 40%;
+}
+.act{
+    position:absolute;
+    left: 40%;
+    top: 19%;
+}
+.camp
+{
+    position:absolute;
+    left: 75%;
+}
+.campus{
+    position:absolute;
+    left: 75%;
+    top: 19%;
+}
+.start{
+    background-color:antiquewhite;
+    position: absolute;
+    width: 1350px;
+    height: 2000px;
+    top: 230%;
+}
+.explore{
+    position:absolute;
+    left: 4%;
+    font-size: 100px;
+}
+td{
+    position: relative;
+    background-color: bisque;
+    top: 50px;
+    
+}
+td img{
+   width: 600px;
+   height: 450px; 
+ 
+}
+.bisulo{
+    width: 400px;
+    height: 400px;
+    padding: 0 100px;
+}
+table{
+    margin: 0 auto;
+    margin-top: 10%;
+    width: 800px;
+    border-spacing: 40px;
+}
+.t1:hover{
+    background-color:floralwhite;
+}
+.t2:hover{
+    background-color:floralwhite;
+}
+.gallery{
+    background-color:rgb(1, 1, 54);
+    position: absolute;
+    width: 1350px;
+    height: 2000px;
+    top: 390%;
+}
+.life{
+    position:absolute;
+    font-size: 70px;
+    top: 280px;
+    font-family:serif;
+    color: white;
+    left: 36%;
+}
+.look{
+    position:absolute;
+    left: 5%;
+    font-size: 25px;
+    top: 360px;
+    font-family:serif;
+    color: white;
+    left: 30%;
+}
+.gal{
+    position:absolute;
+    font-size: 20px;
+    top: 400px;
+    font-family:serif;
+    color: white;
+    left: 45%;
+}
+.gallicon{
+
+    background-color: antiquewhite; 
+    /* background-image: url(arrow3.png); */
+    background-size: cover;
+    background-position-y: center;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    top: 22%;
+    background-size: 150px;
+    /* background-position-x: 46.5%; */
+    position: relative;
+    left: 41%;
+    z-index: 1;
+}
+.main{
+    height: 150px;
+    width: 100px;
+    position: absolute;
+    left:0px;
+    top: 20px;
+}
+.tarp{
+    height: 250px;
+    width:370px;
+    position: absolute;
+    left:20%;
+    top: .5%;
+}
+.huddle{
+    height: 250px;
+    width:350px;
+    position: absolute;
+    left:-7%;
+    top: 12%;
+}
+.vball{
+    height: 240px;
+    width:320px;
+    position: absolute;
+    left: 58%;
+    top: 2% ;
+}
+.hjump{
+    height: 270px;
+    width:200px;
+    position: absolute;
+    left: 85%;
+    top: .5%;
+}
+.dsports{
+    height: 100px;
+    width:150px;
+    position: absolute;
+    left: 84%;
+    top: 18%;
+}   
+.title{
+    height: 140px;
+    width:200px;
+    position: absolute;
+    left: 11%;
+    top: 26.5%;
+}
+.arnis{
+    height: 140px;
+    width:180px;
+    position: absolute;
+    left: .5%;
+    top: 34%;
+}
+.tarsi{
+    height: 220px;
+    width:300px;
+    position: absolute;
+    left: 26.5%;
+    top: 32%;
+}
+.sign{
+    height: 180px;
+    width:260px;
+    position: absolute;
+    left: 55%;
+    top: 30%; 
+}
+.parade{
+    height: 180px;
+    width:260px;
+    position: absolute;
+    left: 82%;
+    top: 25%;   
+}
+.takraw{
+    height: 200px;
+    width:320px;
+    position: absolute;
+    left: 76%;
+    top: 35%; 
+}
+.news{
+    background-color:antiquewhite;
+    position: absolute;
+    width: 1350px;
+    height: 1000px;
+    top: 524%;
+}
+.unews{
+    position:absolute;
+    font-size: 80px;
+    top:1%;
+    font-family:serif;
+    color:black;
+    left: 5%;
+}
+.top{
+    height: 500px;
+    width:700px;
+    position: absolute;
+    left: 5%;
+    top: 18%;
+}
+.hl{
+    position:absolute;
+    font-size: 68px;
+    top:65%;
+    font-family:serif;
+    color:black;
+    left: 5%;
+}
+.des{
+    position:absolute;
+    font-size: 30px;
+    top:78%;
+    font-family:serif;
+    color:black;
+    left: 5%;
+}
+.araw{
+    font-size: 25px;
+    font-family:serif;
+    color:black;
+}
+.theme{
+    font-size: 20px;
+    font-family:serif;
+    color:black;
+}
+.valor{
+    height: 110px;
+    width:140px;
+    position: absolute;
+    top: 10%;
+    left: 110%;
+} 
+.hr1{
+    display:block;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-style: inset;
+    border-width: 1px;
+    border-color: rgb(3, 3, 3);
+    position:relative;
+    width: 150%;
+  }
+  .Kag{
+      position: absolute;
+      left: 60%;
+      top: 23%;
+  }
+.fire{
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+.preve{
+    font-size: 25px;
+    font-family:serif;
+    color:black;
+}
+.iwas{
+    font-size: 20px;
+    font-family:serif;
+    color:black;
+}
+.sunog{
+    height: 110px;
+    width:140px;
+    position: absolute;
+    top: 1%;
+    left: 101%;
+} 
+.hr2{
+    display:block;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-style: inset;
+    border-width: 1px;
+    border-color: rgb(3, 3, 3);
+    position:relative;
+    width: 138%;
+  }
+.paf{
+    position: absolute;
+    left: 60%;
+    top: 55.5%;
+}
+.first{
+    font-size: 25px;
+    font-family:serif;
+    color:black;
+}
+.aid{
+    font-size: 20px;
+    font-family:serif;
+    color:black;
+}
+.psych{
+    height: 110px;
+    width:140px;
+    position: absolute;
+    top: 1%;
+    left: 132%;
+} 
+.hr3{
+    display:block;
+    margin-left: 0%;
+    margin-right: 0%;
+    border-style: inset;
+    border-width: 1px;
+    border-color: rgb(3, 3, 3);
+    position:relative;
+    width: 180%;
+  }
+  footer{
+    background-color:rgb(1, 1, 54);
+    position: absolute;
+    width: 1350px;
+    height: 200px;
+    top: 670%;
+  }
+  .logfooter{
+    position:relative;
+    width: 100px;
+    height: 100px;
+    top: 25%;
+    left: 45%;
+  }
+  footer h1{
+  color: rgb(224, 224, 228);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  position:absolute;
+  top: 65%;
+  left:34%;
+}

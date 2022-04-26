@@ -1,0 +1,263 @@
+.BISUlogo{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+header h1{
+    margin-bottom: 0px;
+    padding-top: 10px;
+    color: rgb(0, 103, 121);
+    text-shadow: 1px 1px gray;
+    margin-top: 0px;
+}
+header h6{
+    margin-top: 0px;
+}
+header{
+    background-color: beige;
+    height: 90px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 5px 1px rgb(110, 110, 110);
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+body{
+    background-color:antiquewhite;
+    margin: 0%;
+}
+.bur{
+    width: 30px;
+    height: 5px;
+    background-color: rgb(88, 87, 87);
+    margin: 6px 0;
+}
+.burger{
+    position: fixed;
+    right:1.5%;
+    top: 4%;
+    z-index: 3;
+}
+.newb{
+    position:absolute;
+    width: 100%;
+    height:100%;
+    filter: blur(2px);
+}
+.cover{
+    color: rgb(255, 255, 255);
+    margin-left: 100px;
+    position: absolute;
+    font-size: 100px;
+    top: 50%;
+    text-shadow: 1.5px 1.5px black;
+}
+.tb{
+    background-color:beige;
+    position: absolute;
+    width: 1350px;
+    height: 4000px;
+    top: 100%;
+}
+.vision{
+    font-size: 40px;
+    top: 1.5%;
+    position: relative;
+    left: 5%;
+}
+.vission{
+    font-size: 30px;
+    top: 2%;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+}
+.miss{   
+    font-size: 40px;
+    position: relative;
+    left: 5%;
+    top: 2.5%;
+}
+.mis{
+    font-size: 30px;
+    top: 3%;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+}
+.cor{
+    font-size: 40px;
+    position: relative;
+    left: 5%;
+    top: 3.7%;
+}
+.core{
+    font-size: 25px;
+    position: relative;
+    top: 3.7%;
+    left: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%
+}
+.c1{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+}
+ul{
+    list-style-type: circle;
+    position: relative;
+    top: 4%;
+    margin: 0px;
+    padding: 0px;
+  }
+.c2{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+  }
+  .c3{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+  }
+.c4{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+  }
+  .c5{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+  }
+  .five{
+    font-size: 25px;
+    position: relative;
+    top: 6%;
+    left: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%;
+  }
+  .b{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    top: 6.2%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+  }
+  .goal{
+    font-size: 40px;
+    position: relative;
+    left: 5%;
+    top: 7%;
+  }
+  .to{
+    font-size: 25px;
+    position: relative;
+    top: 7%;
+    left: 5%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90%;
+  }
+  .goals{
+    list-style-type: circle;
+    position: relative;
+    top: 8%;
+    margin: 0px;
+    padding: 0px;
+  }
+  .g1{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+  }
+  .g2{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+  }
+  .g3{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+  }
+  .g4{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+  }
+  .g5{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+  }
+  .g6{
+    font-size: 30px;
+    position: relative;
+    left: 20%;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 60%
+  }
+  footer{
+    background-color:rgb(1, 1, 54);
+    position: absolute;
+    width: 1350px;
+    height: 200px;
+    top: 700%;
+  }
+  .logfooter{
+    position:relative;
+    width: 100px;
+    height: 100px;
+    top: 25%;
+    left: 45%;
+  }
+  footer h1{
+  color: rgb(224, 224, 228);
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  position:absolute;
+  top: 65%;
+  left:34%;
+}
