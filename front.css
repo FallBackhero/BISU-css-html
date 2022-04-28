@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .BISUlogo{
     float: left;
     margin-left: 20px;
@@ -24,10 +27,56 @@ header{
     z-index: 2;
     top: 0;
 }
+.nav{
+    visibility: hidden;
+    position: absolute;
+    top: 60%;
+    background-color:rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    width: 20%;
+    right: 1%;
+}
+.nav h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+header hr{
+    width: 80%;
+    visibility: hidden;
+    color: white;
+    left: 10%;
+}
+.nav a{
+    text-decoration: none;
+}
+.navhome:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navhistory:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navcamp:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navis:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+@keyframes hr{
+    from{width: 0%;}
+    to{width: 80%;}
+}
 body{
-    background-color:rgb(160, 189, 252);
+    background-color:antiquewhite;
     margin: 0%;
-    height: 10%;
 }
 .bur{
     width: 30px;
@@ -41,59 +90,643 @@ body{
     top: 4%;
     z-index: 3;
 }
+body{
+    background-color:beige;
+    margin: 0%;
+}
 .bohol {
-    text-align: center;
-    margin-top: 100px;
-    position: relative;
+    position:absolute;
+    background-color:rgb(153, 193, 252);
+    width: 100%;
+    height: 100%;
+}
+.map{
+    position:absolute;
+    margin-top: 3%;
+    filter: blur(1px);
+    width: 100%;
+    height: 110%;
+    
+}
+.front{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 120px;
+    top: 30%;
+    text-shadow: 1.5px 1.5px black;
+}
+.down{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 120px;
+    top: 45%;
+    text-shadow: 1.5px 1.5px black;
+}
+ .bur{
+    width: 30px;
+    height: 5px;
+    background-color: rgb(88, 87, 87);
+    margin: 6px 0;
+}
+.burger{
+    position: fixed;
+    right:1.5%;
+    top: 4%;
+    z-index: 3;
+}
+.locator{
+    background-color:rgb(153, 193, 252);
+    position: absolute;
+    width: 1350px;
+    height: 1000px;
+    top: 100%;
+}
+.bmap{
+    position:absolute;
+    top: 20%;
+    left: 15%;
+    width: 1000px;
+    height: 600px;  
 }
 .tagbi{
     width: 100px;
     height: 100px;
     position: absolute;
-    right: 70%;
-    top: 78%
+    right: 66%;
+    top: 189%
 }
 .balilihan{
     width: 100px;
     height: 100px;
     position: absolute;
-    right: 62%;
-    top: 65%
+    right: 59%;
+    top: 178%
 }
 .calape{
     width: 100px;
     height: 100px;
     position: absolute;
-    right: 70%;
-    top: 49%
+    right: 66.5%;
+    top: 162%
 }
 .clarin{
     width: 100px;
     height: 100px;
     position: absolute;
-    right: 58%;
-    top: 39%;
+    right: 55%;
+    top: 153.2%;
 }
 .bilar{
     width: 100px;
     height: 100px;
     position: absolute;
-    right: 54.7%;
-    top: 73%;
+    right: 52.3%;
+    top: 186%;
 }
 .candijay{
     width: 100px;
     height: 100px;
     position: absolute;
-    right: 30%;
-    top: 57%;
+    right: 29.4%;
+    top: 170%;
+}
+.Tagbilaran{
+    background-color:rgb(1, 1, 54);
+    position: absolute;
+    width: 1350px;
+    height: 220%;
+    top: 250%;
+}
+.main{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 80px;
+    margin-top: 0%;
+    margin-left: 2%;
+}
+.mainc{
+    position:absolute;
+    top: 8%;
+    left: 3%;
+    width: 400px;
+    height: 500px;  
+}
+.C1{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 6%;
+    margin-left: 32%;
+}
+.ptc{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 8%;
+    margin-left: 50%;
+    list-style-type:none;
+} 
+.maj{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 16%;
+    margin-left: 55%; 
+    font-style: italic;
+    list-style-type:none;
+}
+.it{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 18%;
+    margin-left: 60%;
+    list-style-type:none;
+}
+.edu{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 34%;
+    margin-left: 50%;
+    list-style-type:none;
+}
+.majo{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 42%;
+    margin-left: 55%; 
+    font-style: italic; 
+}
+.educ{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 44%;
+    margin-left: 60%;
+    list-style-type:none;
+}
+.mainca{
+    position:absolute;
+    top: 380%;
+    left: 52%;
+    width: 600px;
+    height: 400px; 
+}
+.eng{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 175%;
+    margin-left: 0%;
+    list-style-type:none;
+}
+.majoo{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 190%;
+    margin-left: 4%; 
+    font-style: italic; 
+}
+.travel{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 192%;
+    margin-left: 5%;
+    list-style-type:none;
+}
+.off{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 194%;
+    margin-left: 0%;
+    list-style-type:none;
+}
+.majooo{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 201.5%;
+    margin-left: 4%; 
+    font-style: italic; 
+}
+.psych{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 203%;
+    margin-left: 5%;
+    list-style-type:none;
+}
+.arch{
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 205%;
+    margin-left: 0%;
+    list-style-type:none;
+}
+.bal{
+    background-color:beige;
+    position: absolute;
+    width: 1350px;
+    height: 80%;
+    top: 500%;
+}
+.bc{
+    position:absolute;
+    top: 0%;
+    left: 5%;
+    width: 600px;
+    height: 400px; 
+}
+.bali{
+    color: rgb(0, 0, 0);
+    margin-left: 60px;
+    position: relative;
+    font-size: 80px;
+    margin-left: 2%;
+    top:-40%;
+}
+.cou{
+    color: rgb(0, 0, 0);
+    margin-left: 60px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: -20%;
+    margin-left: 34%;
+}
+.elec{
+    color: black;
+    margin-left: 60px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: -10%;
+    margin-left: 50%;
+    list-style-type:none;
+}
+.majoor{
+    color: black;
+    margin-left: 60px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: -2.5%;
+    margin-left: 55%; 
+    font-style: italic; 
+}
+.food{
+    color: black;
+    margin-left: 60px;
+    position: absolute;
+    font-size: 20px;
+    margin-top: -1%;
+    margin-left: 57%;
+    list-style-type:none;
+}
+.info{
+    color: black;
+    margin-left: 60px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 3%;
+    margin-left: 50%;
+    list-style-type:none;
+}
+.bill{
+    background-color:rgb(1, 1, 54);
+    position: absolute;
+    width: 1350px;
+    height: 220%;
+    top: 580%;
+}
+.bila{
+    color: white;
+    margin-left: 60px;
+    position: relative;
+    font-size: 80px;
+    margin-left: 2%;
+    top: 1%;
+}
+.cour{
+    color: white;
+    margin-left: 60px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: -2%;
+    margin-left: 34%;
+}
+.ag{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 1.3%;
+    margin-left: 50%;
+    list-style-type:none;
+}
+.majjor{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    margin-top:  4%;
+    margin-left: 57%; 
+    font-style: italic;
+}
+.an{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 6%;
+    margin-left: 60%;
+    list-style-type:none;
+}
+.agr{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 10%;
+    margin-left: 50%;
+    list-style-type:none;
+}
+.mjr{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    margin-top:  15.5%;
+    margin-left: 57%; 
+    font-style: italic;
+}
+.anim{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 17%;
+    margin-left: 60%;
+    list-style-type:none
+}
+.for{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 23%;
+    margin-left: 50%;
+    list-style-type:none; 
+}
+.mmjr{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    margin-top:  28%;
+    margin-left: 57%; 
+    font-style: italic
+}
+.gen{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 30%;
+    margin-left: 60%;
+    list-style-type:none
+}
+.bcam{
+    position:absolute;
+    top: 16%;
+    left: 5%;
+    width: 600px;
+    height: 400px; 
+}
+.secondary{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 35%;
+    margin-left: 2%;
+    list-style-type:none;
+}
+.mmjr{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    margin-top:  38%;
+    margin-left: 8%; 
+    font-style: italic
+}
+.bedu{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 40%;
+    margin-left: 10%;
+    list-style-type:none
+}
+.agtech{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 47%;
+    margin-left: 2%;
+    list-style-type:none;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 45%;
+}
+.maaa{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    margin-top:  0%;
+    margin-left: 8%; 
+    font-style: italic;
+}
+.auto{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 3.5%;
+    margin-left: 8.5%;
+    list-style-type: none;
+    font-style: normal;
+    width: 300px;
+}
+.bso{
+    color: white;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 67%;
+    margin-left: 2%;
+    list-style-type:none;
+}
+.bagri{
+    position:absolute;
+    top: 55%;
+    left: 53%;
+    width: 600px;
+    height: 400px;
+}
+.cala{
+    background-color:beige;
+    position:absolute;
+    width: 100%;
+    height: 120%;
+    top: 800%;
+}
+.cal{
+    color: rgb(3, 3, 3);
+    font-size: 80px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.cala .cour{
+    color: black;
+    margin-left: 60px;
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+}
+.cala .edu{
+    color: black;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 50%;
+    list-style-type:none;
+}   
+.cala .major{
+    font-size: 20px;
+    margin-top:  0%;
+    margin-left: 8%; 
+    font-style: italic;
+}
+.cala .edu .english{
+    font-size: 20px;
+    margin-top: 3.5%;
+    margin-left: 8.5%;
+    list-style-type: none;
+    font-style: normal; 
+}
+.calapecamp{
+    float: left;
+    width: 600px;
+    height: 400px;
+    margin: 50px;
+}
+.clar{
+    background-color:rgb(1, 1, 54);
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    top: 930%;
+}
+.clar .cal{
+    color: white;
+    font-size: 80px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.clarincampus{
+    float: left;
+    width: 600px;
+    height: 300px;
+    margin: 50px;
+}
+.clar .cour{
+    color: white;
+    margin-left: 60px;
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+}
+.clar .edu{
+    color: white;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 50%;
+    list-style-type:none;
+}   
+.clar .major{
+    font-size: 20px;
+    margin-top:  0%;
+    margin-left: 8%; 
+    font-style: italic;
+}
+.clar .edu .english{
+    font-size: 20px;
+    margin-top: 3.5%;
+    margin-left: 8.5%;
+    list-style-type: none;
+    font-style: normal; 
+}
+.can{
+    background-color:beige;
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    top: 1050%;
+}
+.can .cand{
+    color: black;
+    font-size: 80px;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.candijaycampus{
+    float: left;
+    width: 600px;
+    height: 300px;
+    margin: 50px;
+}
+.can .cour{
+    color: black;
+    margin-left: 60px;
+    font-size: 30px;
+    width: 80%;
+    text-align: center;
+}
+.can .edu{
+    color: black;
+    font-size: 30px;
+    margin-top: 1%;
+    margin-left: 50%;
+    list-style-type:none;
+}   
+.can .major{
+    font-size: 20px;
+    margin-top:  0%;
+    margin-left: 8%; 
+    font-style: italic;
+}
+.can .edu .english{
+    font-size: 20px;
+    margin-top: 3.5%;
+    margin-left: 8.5%;
+    list-style-type: none;
+    font-style: normal; 
 }
 footer{
     background-color:rgb(1, 1, 54);
     position: absolute;
     width: 1350px;
     height: 200px;
-    top: 150%;
+    top: 1180%;
   }
   .logfooter{
     position:relative;
@@ -108,4 +741,8 @@ footer{
   position:absolute;
   top: 65%;
   left:34%;
+}
+table a{
+    text-decoration: none;
+    color: black;
 }

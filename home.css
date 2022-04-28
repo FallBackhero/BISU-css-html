@@ -6,12 +6,22 @@
 header h1{
     margin-bottom: 0px;
     padding-top: 10px;
-    color: rgb(0, 0, 121);
+    color: rgb(28, 28, 219);
     text-shadow: 1px 1px gray;
     margin-top: 0px;
 }
 header h6{
     margin-top: 0px;
+}
+@keyframes hide { 
+0%{
+    opacity: 0%;
+    transform: translateY(100%);
+}
+100%{
+    opacity: 1;
+    transform: translateY(0%);
+}
 }
 header{
     background-color: beige;
@@ -22,6 +32,54 @@ header{
     position: fixed;
     z-index: 2;
     top: 0;
+    animation-duration: 1s;
+}
+.nav{
+    visibility: hidden;
+    position: absolute;
+    top: 60%;
+    background-color:rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    width: 20%;
+    right: 1%;
+}
+.nav h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+header hr{
+    width: 80%;
+    visibility: hidden;
+    position: relative;
+    left: 10%;
+}
+.nav a{
+    text-decoration: none;
+}
+.navhome:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navhistory:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navcamp:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navis:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+@keyframes hr{
+    from{width: 0%;}
+    to{width: 80%;}
 }
 body{
     background-color:antiquewhite;
@@ -46,6 +104,7 @@ body{
     left: 16%;
     z-index: 1;
     font-family: myFirstFont;
+    text-shadow: 2px 2px 5px white;
 }
 @font-face {
     font-family: myFirstFont;
@@ -97,16 +156,20 @@ hr {
 .arrow{
     /* background-color: antiquewhite; */
     background-image: url("arrow3.png");
-    background-size: cover;
     background-position-y:center;
     border-radius: 50%;
     height: 40px;
     width: 40px;
-    background-size: 150px;
+    background-size: 130px;
     background-position-x: 46.5%;
     position: relative;
     left:55%;
 }
+.arrow:hover{
+    filter: invert(1);
+    background-size: 150px;
+}
+
 .year{
     position:absolute;
     left: 10%;
@@ -156,7 +219,6 @@ td{
 td img{
    width: 600px;
    height: 450px; 
- 
 }
 .bisulo{
     width: 400px;
@@ -179,7 +241,7 @@ table{
     background-color:rgb(1, 1, 54);
     position: absolute;
     width: 1350px;
-    height: 2000px;
+    height: 950px;
     top: 390%;
 }
 .life{
@@ -199,36 +261,15 @@ table{
     color: white;
     left: 30%;
 }
-.gal{
-    position:absolute;
-    font-size: 20px;
-    top: 400px;
-    font-family:serif;
-    color: white;
-    left: 45%;
-}
-.gallicon{
-
-    background-color: antiquewhite; 
-    /* background-image: url(arrow3.png); */
-    background-size: cover;
-    background-position-y: center;
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    top: 22%;
-    background-size: 150px;
-    /* background-position-x: 46.5%; */
-    position: relative;
-    left: 41%;
-    z-index: 1;
-}
-.main{
-    height: 150px;
-    width: 100px;
-    position: absolute;
-    left:0px;
-    top: 20px;
+@keyframes slideUp {
+    0%{
+        opacity: 0%;
+        transform: translateY(100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0%);
+    }
 }
 .tarp{
     height: 250px;
@@ -236,6 +277,8 @@ table{
     position: absolute;
     left:20%;
     top: .5%;
+    animation-duration: 3s;
+    visibility: hidden;
 }
 .huddle{
     height: 250px;
@@ -243,6 +286,8 @@ table{
     position: absolute;
     left:-7%;
     top: 12%;
+    animation-duration: 3.5s;
+    visibility: hidden;
 }
 .vball{
     height: 240px;
@@ -250,6 +295,8 @@ table{
     position: absolute;
     left: 58%;
     top: 2% ;
+    animation-duration: 2.5s;
+    visibility: hidden;
 }
 .hjump{
     height: 270px;
@@ -257,196 +304,72 @@ table{
     position: absolute;
     left: 85%;
     top: .5%;
+    animation-duration: 3.2s;
+    visibility: hidden;
 }
-.dsports{
-    height: 100px;
-    width:150px;
-    position: absolute;
-    left: 84%;
-    top: 18%;
-}   
 .title{
     height: 140px;
     width:200px;
     position: absolute;
-    left: 11%;
-    top: 26.5%;
+    left: 9%;
+    top: 43%;
+    animation-duration: 2.8s;
+    visibility: hidden;
 }
 .arnis{
     height: 140px;
     width:180px;
     position: absolute;
     left: .5%;
-    top: 34%;
+    top: 65%;
+    animation-duration: 3.6s;
+    visibility: hidden;
 }
 .tarsi{
     height: 220px;
     width:300px;
     position: absolute;
     left: 26.5%;
-    top: 32%;
+    top: 60%;
+    animation-duration: 2.7s;
+    visibility: hidden;
 }
 .sign{
     height: 180px;
     width:260px;
     position: absolute;
-    left: 55%;
-    top: 30%; 
+    left: 53%;
+    top: 55%; 
+    animation-duration: 3.2s;
+    visibility: hidden;
 }
 .parade{
     height: 180px;
     width:260px;
     position: absolute;
     left: 82%;
-    top: 25%;   
+    top: 35%;   
+    animation-duration: 3s;
+    visibility: hidden;
 }
 .takraw{
     height: 200px;
     width:320px;
     position: absolute;
     left: 76%;
-    top: 35%; 
+    top: 59%; 
+    animation-duration: 3.5s;
+    visibility: hidden;
 }
-.news{
-    background-color:antiquewhite;
-    position: absolute;
-    width: 1350px;
-    height: 1000px;
-    top: 524%;
-}
-.unews{
-    position:absolute;
-    font-size: 80px;
-    top:1%;
-    font-family:serif;
-    color:black;
-    left: 5%;
-}
-.top{
-    height: 500px;
-    width:700px;
-    position: absolute;
-    left: 5%;
-    top: 18%;
-}
-.hl{
-    position:absolute;
-    font-size: 68px;
-    top:65%;
-    font-family:serif;
-    color:black;
-    left: 5%;
-}
-.des{
-    position:absolute;
-    font-size: 30px;
-    top:78%;
-    font-family:serif;
-    color:black;
-    left: 5%;
-}
-.araw{
-    font-size: 25px;
-    font-family:serif;
-    color:black;
-}
-.theme{
-    font-size: 20px;
-    font-family:serif;
-    color:black;
-}
-.valor{
-    height: 110px;
-    width:140px;
-    position: absolute;
-    top: 10%;
-    left: 110%;
-} 
-.hr1{
-    display:block;
-    margin-left: 0%;
-    margin-right: 0%;
-    border-style: inset;
-    border-width: 1px;
-    border-color: rgb(3, 3, 3);
-    position:relative;
-    width: 150%;
-  }
-  .Kag{
-      position: absolute;
-      left: 60%;
-      top: 23%;
-  }
-.fire{
-    position: absolute;
-    left: 60%;
-    top: 40%;
-}
-.preve{
-    font-size: 25px;
-    font-family:serif;
-    color:black;
-}
-.iwas{
-    font-size: 20px;
-    font-family:serif;
-    color:black;
-}
-.sunog{
-    height: 110px;
-    width:140px;
-    position: absolute;
-    top: 1%;
-    left: 101%;
-} 
-.hr2{
-    display:block;
-    margin-left: 0%;
-    margin-right: 0%;
-    border-style: inset;
-    border-width: 1px;
-    border-color: rgb(3, 3, 3);
-    position:relative;
-    width: 138%;
-  }
-.paf{
-    position: absolute;
-    left: 60%;
-    top: 55.5%;
-}
-.first{
-    font-size: 25px;
-    font-family:serif;
-    color:black;
-}
-.aid{
-    font-size: 20px;
-    font-family:serif;
-    color:black;
-}
-.psych{
-    height: 110px;
-    width:140px;
-    position: absolute;
-    top: 1%;
-    left: 132%;
-} 
-.hr3{
-    display:block;
-    margin-left: 0%;
-    margin-right: 0%;
-    border-style: inset;
-    border-width: 1px;
-    border-color: rgb(3, 3, 3);
-    position:relative;
-    width: 180%;
-  }
   footer{
     background-color:rgb(1, 1, 54);
     position: absolute;
     width: 1350px;
-    height: 200px;
-    top: 670%;
+    height: 250px;
+    top: 510%;
+  }
+  footer hr{
+      width: 100%;
   }
   .logfooter{
     position:relative;
@@ -461,4 +384,8 @@ table{
   position:absolute;
   top: 65%;
   left:34%;
+}
+table a{
+    text-decoration: none;
+    color: black;
 }

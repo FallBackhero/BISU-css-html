@@ -9,21 +9,31 @@
     <link rel="icon" href="logo.png">
 </head>
 <body>
-    <header>
-        <img class="BISUlogo"src="/logo.png" alt="BISU logo" height="75px">
+    <header id="header">
+        <img class="BISUlogo"src="./logo.png" alt="BISU logo" height="75px">
         <h1>Bohol Island State University</h1>
         <h6>Raising S&T Education to Global Standards</h6>
+        <div class="nav" id="nav">
+            <a href="/" class="navhome"><h1>HOME</h1>
+            <hr> </a>
+            <a href="history.html" class="navhistory"><h1>HISTORY</h1>
+            <hr> </a>
+            <a href="/map.html" class="navcamp"><h1>CAMPUS</h1>
+            <hr> </a>
+            <a href="/VMG.html" class="navis"><h1>Vision, Mission, and Goals</h1>
+            <hr></a>
+        </div>
     </header>
-    <div class="burger">
+    <div class="burger" onclick="visibility()">
         <div class="bur"></div>
         <div class="bur"></div>
         <div class="bur"></div>
     </div>
     <div class="motto">
-        <h1><p>A premier Science and Technology university <br>
+        <h1>A premier Science and Technology university <br>
              for the formation of world class and virtuous human resource for <br>
              sustainable development in Bohol and the Country.
-        </p></h1>
+        </h1>
     </div> 
     <div class="gate">
     </div>   
@@ -37,8 +47,10 @@
             culture of excellence cultivated by its proud past, <br>guided by its mandate,
              and directed by its vision-mission.</h6>
              <!-- <img src="arrow.png" alt="arrow" class="arrow"> -->
+        <a href="history.html">
         <div class="arrow">
         </div>
+        </a>
         <h6 class="history"> Learn more about our history</h6>
              <hr>
         <h1 class="year">2009</h1>
@@ -62,16 +74,22 @@
         <table>
             <tr>
             <td class="t1">
+                <a href="/map.html">
+                <div class="ourcampus">
                 <img src="campus.jpg" alt="Balilihan Campus">
                 <h1>Our Campuses</h1>
                 <h2>Take a tour in our campuses</h2>
+                </div>
+                </a>
             </td>
                 <td class="t2">
+                    <a href="/VMG.html">
                     <img src="logo.png" alt="BISU logo" class="bisulo">
                    
                     <h1> Mission, Vision, Goals</h1>
                     <h2> Take a look in our universities vision,<br>
                     mission and goals. Listen to our BISU hymn.</h2>
+                </a>
                 </td>
             </tr>
         </table>
@@ -79,52 +97,64 @@
     <div class="gallery">
         <h1 class="life">Life on BISU</h1>
         <h5 class="look">What’s life like on the BISU campus? Take a look.</h5>
-        <h6 class="gal">View Gallery</h6>
-        <img class="gallicon"src="/gallery.PNG" alt="">
-        <img src="1.jpg" alt="BISU SCUAA 2018" class="tarp">
-        <img src="12.jpg" alt="BISU MAIN" class="main">
-        <img src="2.jpg" alt="Volleyball players huddle" class="huddle">
-        <img src="3.jpg" alt="Students playing volleyball" class="vball">
-        <img src="9.jpg" alt="High jump" class="hjump">
-        <img src="4.jpg" alt="dance sports" class="dsports">
-        <img src="5.jpg" alt="title proposal" class="title">
-        <img src="8.jpg" alt="Arnis" class="arnis">
-        <img src="6.jpg" alt="Little Tarsi 10K Challenge" class="tarsi">
-        <img src="7.jpg" alt="student signing" class="sign">
-        <img src="10.jpg" alt="Parade" class="parade">
-        <img src="11.jpg" alt="student playing sepak takraw" class="takraw">
+        <img src="1.jpg" alt="BISU SCUAA 2018" class="tarp" id="tarp">
+        <img src="2.jpg" alt="Volleyball players huddle" class="huddle" id="huddle">
+        <img src="3.jpg" alt="Students playing volleyball" class="vball" id="vball">
+        <img src="9.jpg" alt="High jump" class="hjump" id="hjump">
+        <img src="5.jpg" alt="title proposal" class="title" id="title">
+        <img src="8.jpg" alt="Arnis" class="arnis" id="arnis">
+        <img src="6.jpg" alt="Little Tarsi 10K Challenge" class="tarsi" id="tarsi">
+        <img src="7.jpg" alt="student signing" class="sign" id="sign">
+        <img src="10.jpg" alt="Parade" class="parade" id="parade">
+        <img src="11.jpg" alt="student playing sepak takraw" class="takraw" id="takraw">
     </div>        
-    <div class="news">
-        <div>
-        <h1 class="unews">University News</h1>
-        <img src="top1.jpg" alt="Top Performing School" class="top">
-        <h2 class="hl">Top Performing  School</h2>
-        <h3 class="des">1st Top Performing School w/ 50 or more examinees
-            in <br>the February 2022 ME Licensure Examination</h3>
-        </div>
-        <div class="Kag">    
-        <h3 class="araw">Araw ng Kagitingan</h3> 
-        <h3 class="theme">"Kagitingan ng mga Beterano, 
-            <br>Inspirasyon ng Nagkakaisang Pilipino”.</h3>  
-            <img src="valor.jpg" alt="Day of Valor" class="valor">
-             <hr class="hr1">
-        </div>
-        <div class="fire">
-            <h3 class="preve">Fire Prevention Month</h3> 
-            <h3 class="iwas">"Sa Pag-iwas ng Sunog, Hindi ka Nag-iisa"</h3>  
-                <img src="sunog.jpg" alt="Dr. Arceli Hernando" class="sunog">
-                <hr class="hr2">
-        </div>
-        <div class="paf">
-            <h3 class="first">Psychological First Aid</h3> 
-            <h3 class="aid">"Kumusta? Dali Mag Istorya ta"</h3>  
-                <img src="PAF.jpg" alt="Psychological First Aid" class="psych">
-                <hr class="hr3">
-        </div>
-    </div>
     <footer>
+        <hr>
         <img src="logo.png" alt="BISU logo" class="logfooter">
         <h1>Bohol Island State University</h1>
     </footer>
+    <script>
+        document.documentElement.onscroll = function(){hide()};
+        const hide = () =>{
+            console.log(1)
+        }
+        const visibility = () =>{
+            if(document.getElementById("nav").style.visibility==="hidden"){
+                return document.getElementById("nav").style.visibility="visible"
+            }else{
+                return document.getElementById("nav").style.visibility="hidden"
+            }
+    }
+    window.onscroll = function() {scrollFunction()};
+    const scrollFunction =()=>{
+        if( document.documentElement.scrollTop > 2300){
+            document.getElementById("tarp").style.animationName="slideUp";
+            document.getElementById("tarp").style.visibility="visible";
+            document.getElementById("huddle").style.animationName="slideUp";
+            document.getElementById("huddle").style.visibility="visible";
+            document.getElementById("vball").style.animationName="slideUp";
+            document.getElementById("vball").style.visibility="visible";
+            document.getElementById("hjump").style.animationName="slideUp";
+            document.getElementById("hjump").style.visibility="visible";
+            document.getElementById("title").style.animationName="slideUp";
+            document.getElementById("title").style.visibility="visible";
+            document.getElementById("arnis").style.animationName="slideUp";
+            document.getElementById("arnis").style.visibility="visible";
+            document.getElementById("tarsi").style.animationName="slideUp";
+            document.getElementById("tarsi").style.visibility="visible";
+            document.getElementById("sign").style.animationName="slideUp";
+            document.getElementById("sign").style.visibility="visible";
+            document.getElementById("parade").style.animationName="slideUp";
+            document.getElementById("parade").style.visibility="visible";
+            document.getElementById("takraw").style.animationName="slideUp";
+            document.getElementById("takraw").style.visibility="visible";
+        }
+        if(document.documentElement.scrollTop>100){
+            document.getElementById("header").style.visibility="hidden";
+        }else{
+            document.getElementById("header").style.visibility="visible";
+    }   
+}
+    </script>
 </body>
 </html>

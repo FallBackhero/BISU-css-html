@@ -23,6 +23,53 @@ header{
     z-index: 2;
     top: 0;
 }
+.nav{
+    visibility: hidden;
+    position: absolute;
+    top: 60%;
+    background-color:rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    width: 20%;
+    right: 1%;
+}
+.nav h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+header hr{
+    width: 80%;
+    visibility: hidden;
+    left: 10%;
+    color: white;
+}
+.nav a{
+    text-decoration: none;
+}
+.navhome:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navhistory:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navcamp:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navis:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+@keyframes hr{
+    from{width: 0%;}
+    to{width: 80%;}
+}
 body{
     background-color:antiquewhite;
     margin: 0%;
@@ -229,4 +276,8 @@ footer{
   position:absolute;
   top: 65%;
   left:34%;
+}
+table a{
+    text-decoration: none;
+    color: black;
 }

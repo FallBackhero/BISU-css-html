@@ -9,12 +9,22 @@
     <link rel="icon" href="logo.png">
 </head>
 <body>
-    <header>
+    <header id="header">
         <img class="BISUlogo"src="/logo.png" alt="BISU logo" height="75px">
         <h1>Bohol Island State University</h1>
         <h6>Raising S&T Education to Global Standards</h6>
+        <div class="nav" id="nav">
+            <a href="/" class="navhome"><h1>HOME</h1>
+            <hr> </a>
+            <a href="history.html" class="navhistory"><h1>HISTORY</h1>
+            <hr> </a>
+            <a href="/map.html" class="navcamp"><h1>CAMPUS</h1>
+            <hr> </a>
+            <a href="/VMG.html" class="navis"><h1>Vision, Mission, and Goals</h1>
+            <hr></a>
+        </div>
     </header>
-    <div class="burger">
+    <div class="burger" onclick="visibility()">
         <div class="bur"></div>
         <div class="bur"></div>
         <div class="bur"></div>
@@ -22,7 +32,7 @@
     <div class="history">
     </div>
     <div class="his">
-        <h1>The history of <br> BISU</h1>
+        <h1>The History of <br> BISU</h1>
     </div>
     <div class="about">
         <h1 class="born">A University is Born</h1>
@@ -60,5 +70,25 @@
         <img src="logo.png" alt="BISU logo" class="logfooter">
         <h1>Bohol Island State University</h1>
     </footer>
+    <script>
+        const visibility = () =>{
+            if(document.getElementById("nav").style.visibility==="hidden"){
+                console.log("hidden")
+                return document.getElementById("nav").style.visibility="visible"
+            }else{
+                console.log("visible")
+                return document.getElementById("nav").style.visibility="hidden"
+            }
+    }
+    window.onscroll = function() {scrollFunction()};
+    const scrollFunction =()=>{
+        if(document.body.scrollTop > 100 || document.documentElement.scrollTop > 100){
+            document.getElementById("header").style.visibility="hidden";
+                }
+        else {
+            document.getElementById("header").style.visibility="visible";
+        }
+    }
+    </script>
 </body>
 </html>
