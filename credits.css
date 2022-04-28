@@ -1,0 +1,138 @@
+.BISUlogo{
+    float: left;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+header h1{
+margin-bottom: 0px;
+padding-top: 10px;
+color: rgb(0, 0, 121);
+text-shadow: 1px 1px gray;
+margin-top: 0px;
+
+}
+header h6{
+margin-top: 0px;
+}
+header{
+    background-color: beige;
+    height: 90px;
+    padding-top: 10px;
+    box-shadow: 1px 1px 5px 1px rgb(110, 110, 110);
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+}
+.nav{
+    visibility: hidden;
+    position: absolute;
+    top: 60%;
+    background-color:rgba(0, 0, 0, 0.767);
+    padding: 10px;
+    width: 20%;
+    right: 1%;
+}
+.nav h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+header hr{
+    width: 80%;
+    visibility: hidden;
+    color: white;
+    left: 10%;
+}
+.nav a{
+    text-decoration: none;
+}
+.navhome:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navhistory:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navcamp:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+.navis:hover hr{
+    visibility: visible;
+    animation-name: hr;
+    animation-duration: .2s;
+}
+@keyframes hr{
+    from{width: 0%;}
+    to{width: 80%;}
+}
+body{
+    background-color:antiquewhite;
+    margin: 0%;
+}
+.bur{
+    width: 30px;
+    height: 5px;
+    background-color: rgb(88, 87, 87);
+    margin: 6px 0;
+}
+.burger{
+    position: fixed;
+    right:1.5%;
+    top: 4%;
+    z-index: 3;
+}
+body{
+    background-color:beige;
+    margin: 0%;
+    background-image: url("/logo.png");
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 130px;
+}
+.all {
+    font-size: 2vw;
+    margin: 0px 20vw;
+    margin-top: 150px;
+}
+.midterm {
+    font-size: 2.5vw;
+    text-align: center;
+    text-shadow: 0.05em 0.05em 0.02em rgb(0, 0, 0);
+    padding: 10px 50px;
+   
+}
+.head {
+    color: rgb(221, 227, 236);
+    text-align: center;
+    text-shadow: 0.05em 0.05em .05em rgb(7, 7, 7);
+}
+.subject {
+    text-align: center;
+}
+.head1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 0.05em 0.05em 0.05em rgb(7 7 7);
+}
+.in {
+    padding: 0px 3vw;
+}
+.in h3 {
+    padding-top: 1vw;
+}
+.midterm, .subject, .group, .instructor, .ref {
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 10px 8vw;
+    margin: 20px 0px;
+    padding-bottom: 40px;
+    color: white;
+    font-family: LexendL;
+    border-radius: 10px;
+}
