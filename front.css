@@ -157,6 +157,24 @@ body{
     right: 66%;
     top: 189%
 }
+.tagbi:hover{
+    filter: brightness(1.5);
+}
+.balilihan:hover{
+    filter: brightness(1.5);
+}
+.calape:hover{
+    filter: brightness(1.5);
+}
+.clarin:hover{
+    filter: brightness(1.5);
+}
+.bilar:hover{
+    filter: brightness(1.5);
+}
+.candijay:hover{
+    filter: brightness(1.5);
+}
 .balilihan{
     width: 100px;
     height: 100px;
